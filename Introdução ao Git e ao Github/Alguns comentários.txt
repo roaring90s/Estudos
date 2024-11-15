@@ -1,0 +1,40 @@
+# Git e o Github:
+
+## Utilizando o Git Bash!
+
+### Comandos para configuração inicial
+	- git config --global user.name "";
+	- git config --global user.email "";
+
+### Comandos de Controle de Versão
+	- git init: inicializa um novo repositório;
+	- git clone <url>: clona um repositório;
+	- git status: mostra o status de mudanças;
+	- git add <arquivo ou pasta>: adiciona para o próximo commit;
+	- git commit -m "mensagem": Faz um commit das alterações com uma mensagem;
+	- git log: exibe o histórico de commits;
+
+### Trabalhando com Repositórios Remotos
+	- git remote add origin <url>: Conecta o repositório local a um remoto;
+	- git push origin <branch>: Envia o branch especificada para o repositório remoto;
+	- git pull: puxa as mudanças do repositório remoto para a branch atual;
+	- git fetch: busca as atualizações do repositório remoto sem fazer merge;
+
+### Desfazendo Alterações
+	- git reset --hard <commit>: restaura o repositório a um commit;
+	- git reset <commit>: reverte um commit específico;
+	- git checkout -- <arquivo>: desfaz mudanças não comitadas em um arquivo;
+
+### Deletar Arquivos e Pastas
+	- git rm <arquivo>: exclui um arquivo do repositório e sistema de arquivos;
+	- git rm -r <pasta>: exclui uma pasta e seu conteúdo
+	- git rm --cached <arquivo>: exclui do repositório mas mantém o arquivo localmente;
+
+### Renomear Arquivos e Pastas
+
+	- git mv <nome_antigo> <nome_novo>: o mesmo que mover, mas o git entende como uma renomeação
+	- git mv <nome_ arquivo> <novo_diretorio>: mover um arquivo para outro diretório
+
+### Central
+
+	- git cd \<diretorio>: viajar pelos diretórios
